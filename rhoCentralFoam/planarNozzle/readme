@@ -1,0 +1,4 @@
+this is a planar nozzle. 
+the run is stable and takes more time to get the jet stabilized than  fluent .
+it is inspired from the paper 
+https://doi.org/10.1007/s12650-022-00856-5
