@@ -105,6 +105,14 @@ div(phi,omega)  Gauss upwind;
 ```
 
 If the case already has a `div(tauMC)` or `div(((rho*nuEff)*dev2(T(grad(U)))))` entry, keep it. The exact names depend on the solver, so match any "keyword not found" error against your own `fvSchemes`.
+### outside divSchemes 
+add this wall distance method 
+```
+wallDist
+{
+    method     meshWave
+}
+```
 
 ### `system/fvSolution` (in `solvers`)
 
